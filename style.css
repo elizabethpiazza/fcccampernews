@@ -1,0 +1,41 @@
+h1 {
+  font-family: 'Sumana', serif;
+  font-size: 3em;
+  color: white;
+}
+
+h1 > small {
+  color: rgba(255, 255, 255, .7);
+}
+
+body {
+  background: url('http://i376.photobucket.com/albums/oo210/epiazza22/campfire-840542_1280_zpsc7wjaw8y.jpg') no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.thumbnail {
+  width: 100%;
+  background: rgba(255,255,255,.7);
+  overflow: auto;
+}
+
+.caption > h4 {
+  height: 3.2em;
+  overflow: hidden;
+}
+
+.contImg {
+  max-width: 100%;
+  height: 200px !important;
+}
+
+.userImg {
+  width: 2em;
+  padding: 0 10px 0 0;
+}
+
+.userDiv {
+  height: 3em;
+  overflow: hidden;
+}
